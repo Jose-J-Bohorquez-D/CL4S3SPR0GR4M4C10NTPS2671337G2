@@ -1,0 +1,97 @@
+/* Estilos del contenedor principal */
+.principal {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+/* Estilos del contenedor .cuadroCentrado */
+.cuadroCentrado {
+    align-items: start;
+}
+
+/* Estilos de las cajas en .cuadroCentrado */
+#caja1 {
+    position: absolute;
+    background-color: purple;
+    left: 15px;
+    top: 15px;
+    width: 600px;
+    height: 500px;
+    z-index: 1;
+}
+
+#caja2 {
+    position: absolute;
+    background-color: blue;
+    left: 135px;
+    top: 135px;
+    width: 370px;
+    height: 270px;
+    z-index: 3;
+}
+
+#caja3 {
+    position: absolute;
+    background-color: green;
+    left: 65px;
+    top: 60px;
+    width: 500px;
+    height: 400px;
+    z-index: 2;
+}
+
+#caja4 {
+    position: absolute;
+    background-color: rgb(166, 255, 0);
+    left: 190px;
+    top: 190px;
+    width: 260px;
+    height: 160px;
+    z-index: 10;
+}
+
+/* Estilos del contenedor .cajasFila */
+.cajasFila {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    background-color: orangered;
+    height: 400px;
+    width: 200px;
+}
+
+/* Estilos de las cajas en .cajasFila */
+.cjsd1 {
+    background-color: purple;
+    width: 200px;
+    height: 400px;
+}
+
+.cjsd2 {
+    background-color: green;
+    width: 200px;
+    height: 400px;
+}
+
+.cjsd3 {
+    background-color: blue;
+    width: 200px;
+    height: 400px;
+}
+
+.cjsd4 {
+    background-color: yellow;
+    width: 200px;
+    height: 400px;
+}
+
+.cjsd5 {
+    background-color: red;
+    width: 200px;
+    height: 400px;
+}
+
+div {
+    color: aquamarine;
+}

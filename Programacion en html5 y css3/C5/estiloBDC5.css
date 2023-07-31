@@ -1,39 +1,39 @@
-.listas{
-    list-style:lower-latin;
+.l1{
+    list-style:decimal;
 }
-.Nombres{
+.sl1{
     color: maroon;
     font-family: cursive;
     font-size: 20px;
     font-weight: bold;
    
 }
-.Segundo{
-    list-style:decimal;
+.l2{
+    list-style:lower-latin;
 }
-.Nombres2{
-    color:blueviolet;
+.sl2{
+    color:orangered;
     font-size: 20px;
     font-family: arial;
     text-decoration: underline;
 }
-.Tercero{
+.l3{
     list-style: rgb(63, 27, 27);
 }
-.Nombres3{
-    color: greenyellow;
+.sl3{
+    color: purple;
     font-size: 20px;
     font-family:times new roman;
     text-decoration: line-through;
 
 }
-.Cuarto{
-    list-style: green;
+.l4{
+    list-style: red;
     
 }
-.Nombres4{
+.sl4{
     font-size: 20px;
-    color: orangered;
+    color: red;
     font-family: verdana;
     text-decoration: wavy;
     text-align: center;
