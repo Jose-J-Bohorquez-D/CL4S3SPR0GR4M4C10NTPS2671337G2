@@ -1,0 +1,53 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+  
+  .flex-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f39c12;
+    width: 85%;
+    height: 90%;
+    border-radius: 40px;
+  }
+  
+  .box {
+    width: 200px;
+    height: 500px;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: 18px;
+    color: #fff;
+    border-radius: 30px;
+  }
+  
+  /* Estilos para los bordes de los contenedores */
+  
+  .red-border {
+    border: 10px dotted red;
+    background-color: #e74c3c;
+  }
+  
+  .blue-border {
+    border: 10px dashed blue;
+    background-color: #3498db;
+  }
+  
+  .green-border {
+    border: 10px double green;
+    background-color: #2ecc71;
+  }
+  
+  .orange-border {
+    border: 10px groove darkcyan;
+    background-color: greenyellow;
+  }
+  

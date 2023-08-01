@@ -1,0 +1,63 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+  
+  .flex-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f39c12;
+    width: 99%;
+    height: 90%;
+    border-radius: 40px;
+  }
+  
+  .box {
+    width: 160px;
+    height: 300px;
+    margin: 100px; /* Agrega un margen de 10px entre las cajas */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: 18px;
+    color: #fff;
+    border-radius: 30px;
+  }
+  
+  /* Estilos para los bordes de los contenedores */
+  
+  .red-border {
+    border: 10px dotted red;
+    background-color: #e74c3c;
+  }
+  
+  .blue-border {
+    border: 10px dashed blue;
+    background-color: #3498db;
+  }
+  
+  .green-border {
+    border: 10px double green;
+    background-color: #2ecc71;
+  }
+  
+  .orange-border {
+    border: 10px groove darkcyan;
+    background-color: greenyellow;
+  }
+  
+  /* Rotaciones de 30 grados */
+  
+  .rotated-right {
+    transform: rotate(30deg);
+  }
+  
+  .rotated-left {
+    transform: rotate(-30deg);
+  }
+  
