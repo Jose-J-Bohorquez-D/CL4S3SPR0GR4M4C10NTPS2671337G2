@@ -1,0 +1,16 @@
+body{
+    text-align: center;
+}
+
+#p1{
+    border: 10px solid red;
+    text-align: start;
+}
+#p2{
+    border: 10px solid blue;
+    text-align: start;
+}
+#p3{
+    border: 10px solid green;
+    text-align: start;
+}
